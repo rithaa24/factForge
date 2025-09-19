@@ -1,0 +1,65 @@
+# FactForge Seed URLs for Crawling
+# These are example URLs for testing the crawler
+# In production, replace with actual fact-checking websites
+
+# English fact-checking sites
+https://www.snopes.com/
+https://www.factcheck.org/
+https://www.politifact.com/
+https://www.reuters.com/fact-check/
+https://www.afp.com/en/afpcom/fact-check
+
+# Hindi fact-checking sites
+https://www.altnews.in/
+https://www.boomlive.in/
+https://www.vishvasnews.com/
+https://www.thequint.com/news/fact-check
+
+# Tamil fact-checking sites
+https://www.tamil.boomlive.in/
+https://www.tamil.altnews.in/
+
+# Kannada fact-checking sites
+https://www.kannada.boomlive.in/
+https://www.kannada.altnews.in/
+
+# General news sites (for testing)
+https://www.bbc.com/news
+https://www.cnn.com/
+https://www.indiatoday.in/
+https://www.thehindu.com/
+
+# Social media platforms (for testing)
+https://twitter.com/
+https://www.facebook.com/
+https://www.instagram.com/
+
+# Government websites (for testing)
+https://www.pib.gov.in/
+https://www.mygov.in/
+https://www.niti.gov.in/
+
+# Educational websites (for testing)
+https://www.wikipedia.org/
+https://www.britannica.com/
+https://www.khanacademy.org/
+
+# Health websites (for testing)
+https://www.who.int/
+https://www.cdc.gov/
+https://www.mohfw.gov.in/
+
+# Financial websites (for testing)
+https://www.rbi.org.in/
+https://www.sebi.gov.in/
+https://www.nseindia.com/
+
+# Technology websites (for testing)
+https://www.techcrunch.com/
+https://www.engadget.com/
+https://www.theverge.com/
+
+# Science websites (for testing)
+https://www.nature.com/
+https://www.science.org/
+https://www.newscientist.com/

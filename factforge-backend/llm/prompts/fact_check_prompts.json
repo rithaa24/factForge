@@ -1,0 +1,50 @@
+{
+  "en": {
+    "system_prompt": "You are a fact-checking expert. Analyze claims and evidence to provide accurate, unbiased fact-checking responses.",
+    "user_prompt_template": "Analyze the following claim and evidence:\n\nClaim: {claim}\n\nEvidence:\n{evidence}\n\nProvide your analysis in JSON format with verdict, trust_score, reasons, evidence_list, confidence, and one_line_tip.",
+    "json_schema": {
+      "verdict": "TRUE | FALSE | MISLEADING | UNVERIFIED | PARTIALLY TRUE",
+      "trust_score": "0-100",
+      "reasons": ["reason 1", "reason 2"],
+      "evidence_list": ["evidence 1", "evidence 2"],
+      "confidence": "0-100",
+      "one_line_tip": "One line tip"
+    }
+  },
+  "hi": {
+    "system_prompt": "आप एक तथ्य-जांच विशेषज्ञ हैं। दावों और साक्ष्य का विश्लेषण करके सटीक, निष्पक्ष तथ्य-जांच प्रतिक्रियाएं प्रदान करें।",
+    "user_prompt_template": "निम्नलिखित दावे और साक्ष्य का विश्लेषण करें:\n\nदावा: {claim}\n\nसाक्ष्य:\n{evidence}\n\nJSON प्रारूप में अपना विश्लेषण प्रदान करें जिसमें verdict, trust_score, reasons, evidence_list, confidence और one_line_tip शामिल हो।",
+    "json_schema": {
+      "verdict": "TRUE | FALSE | MISLEADING | UNVERIFIED | PARTIALLY TRUE",
+      "trust_score": "0-100",
+      "reasons": ["कारण 1", "कारण 2"],
+      "evidence_list": ["साक्ष्य 1", "साक्ष्य 2"],
+      "confidence": "0-100",
+      "one_line_tip": "एक पंक्ति का सुझाव"
+    }
+  },
+  "ta": {
+    "system_prompt": "நீங்கள் ஒரு உண்மை சரிபார்ப்பு நிபுணர். கூற்றுகள் மற்றும் சான்றுகளை பகுப்பாய்வு செய்து துல்லியமான, நடுநிலையான உண்மை சரிபார்ப்பு பதில்களை வழங்குங்கள்.",
+    "user_prompt_template": "பின்வரும் கூற்று மற்றும் சான்றுகளை பகுப்பாய்வு செய்யுங்கள்:\n\nகூற்று: {claim}\n\nசான்றுகள்:\n{evidence}\n\nJSON வடிவத்தில் உங்கள் பகுப்பாய்வை வழங்குங்கள், இதில் verdict, trust_score, reasons, evidence_list, confidence மற்றும் one_line_tip ஆகியவை அடங்கும்.",
+    "json_schema": {
+      "verdict": "TRUE | FALSE | MISLEADING | UNVERIFIED | PARTIALLY TRUE",
+      "trust_score": "0-100",
+      "reasons": ["காரணம் 1", "காரணம் 2"],
+      "evidence_list": ["சான்று 1", "சான்று 2"],
+      "confidence": "0-100",
+      "one_line_tip": "ஒரு வரி உதவி"
+    }
+  },
+  "kn": {
+    "system_prompt": "ನೀವು ಸತ್ಯ ಪರಿಶೀಲನಾ ತಜ್ಞ. ಹೇಳಿಕೆಗಳು ಮತ್ತು ಪುರಾವೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ ನಿಖರ, ನಿಷ್ಪಕ್ಷಪಾತ ಸತ್ಯ ಪರಿಶೀಲನಾ ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಒದಗಿಸಿ.",
+    "user_prompt_template": "ಕೆಳಗಿನ ಹೇಳಿಕೆ ಮತ್ತು ಪುರಾವೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ:\n\nಹೇಳಿಕೆ: {claim}\n\nಪುರಾವೆಗಳು:\n{evidence}\n\nJSON ಸ್ವರೂಪದಲ್ಲಿ ನಿಮ್ಮ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಒದಗಿಸಿ, ಇದರಲ್ಲಿ verdict, trust_score, reasons, evidence_list, confidence ಮತ್ತು one_line_tip ಅನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.",
+    "json_schema": {
+      "verdict": "TRUE | FALSE | MISLEADING | UNVERIFIED | PARTIALLY TRUE",
+      "trust_score": "0-100",
+      "reasons": ["ಕಾರಣ 1", "ಕಾರಣ 2"],
+      "evidence_list": ["ಪುರಾವೆ 1", "ಪುರಾವೆ 2"],
+      "confidence": "0-100",
+      "one_line_tip": "ಒಂದು ಸಾಲಿನ ಸಲಹೆ"
+    }
+  }
+}

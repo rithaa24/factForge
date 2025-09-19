@@ -1,0 +1,87 @@
+# FastAPI and web framework
+fastapi==0.115.14
+uvicorn[standard]==0.35.0
+python-multipart==0.0.12
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Redis
+redis==5.2.0
+
+# Vector database
+pymilvus==2.4.7
+
+# HTTP requests
+requests==2.32.4
+httpx==0.28.1
+
+# Data processing
+pandas==2.3.1
+numpy==2.3.2
+
+# Machine Learning
+sentence-transformers==3.1.1
+transformers==4.48.2
+torch==2.5.1
+scikit-learn==1.6.0
+
+# Language detection and processing
+fasttext==0.9.2
+langdetect==1.0.9
+
+# OCR
+pytesseract==0.3.13
+Pillow==11.2.1
+
+# Text processing
+beautifulsoup4==4.13.4
+lxml==6.0.0
+nltk==3.9.1
+
+# Monitoring and metrics
+prometheus-client==0.21.1
+prometheus-fastapi-instrumentator==7.0.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.11.7
+pydantic-settings==2.6.1
+
+# Background tasks
+celery==5.4.0
+kombu==5.4.0
+
+# Image processing
+opencv-python==4.10.0.84
+imagehash==4.3.1
+
+# WHOIS
+python-whois==0.9.5
+
+# Date/time
+python-dateutil==2.9.0.post0
+
+# JSON handling
+orjson==3.10.12
+
+# CORS
+fastapi-cors==0.0.6
+
+# Google Cloud dependencies
+google-cloud-aiplatform==1.38.1
+google-cloud-storage==2.10.0
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# Development
+pytest==8.3.4
+pytest-asyncio==0.24.0
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0

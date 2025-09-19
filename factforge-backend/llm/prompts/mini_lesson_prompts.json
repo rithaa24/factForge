@@ -1,0 +1,54 @@
+{
+  "en": {
+    "system_prompt": "You are a concise teacher. Create brief, educational mini-lessons about fact-checking and misinformation.",
+    "user_prompt_template": "Create a brief lesson (20-45 seconds readable) about the following claim:\n\nClaim: {claim}\nVerdict: {verdict}\n\nEvidence:\n{evidence}\n\nProvide a mini-lesson that explains why the claim is suspicious, gives 2 actionable tips to verify, and asks 1 multiple-choice question.",
+    "json_schema": {
+      "mini_lesson": "Brief lesson (1 paragraph, 20-45 seconds readable)",
+      "tips": ["tip 1", "tip 2"],
+      "quiz": {
+        "question": "Question",
+        "options": ["A", "B", "C"],
+        "answer": "A"
+      }
+    }
+  },
+  "hi": {
+    "system_prompt": "आप एक संक्षिप्त शिक्षक हैं। तथ्य-जांच और गलत सूचना के बारे में संक्षिप्त, शैक्षिक मिनी-पाठ बनाएं।",
+    "user_prompt_template": "निम्नलिखित दावे के बारे में एक संक्षिप्त पाठ (20-45 सेकंड पढ़ने योग्य) बनाएं:\n\nदावा: {claim}\nनिर्णय: {verdict}\n\nसाक्ष्य:\n{evidence}\n\nएक मिनी-पाठ प्रदान करें जो बताता है कि दावा क्यों संदिग्ध है, सत्यापन के लिए 2 क्रियाशील सुझाव देता है, और 1 बहुविकल्पीय प्रश्न पूछता है।",
+    "json_schema": {
+      "mini_lesson": "संक्षिप्त पाठ (1 पैराग्राफ, 20-45 सेकंड पढ़ने योग्य)",
+      "tips": ["सुझाव 1", "सुझाव 2"],
+      "quiz": {
+        "question": "प्रश्न",
+        "options": ["A", "B", "C"],
+        "answer": "A"
+      }
+    }
+  },
+  "ta": {
+    "system_prompt": "நீங்கள் ஒரு சுருக்கமான ஆசிரியர். உண்மை சரிபார்ப்பு மற்றும் தவறான தகவல்கள் பற்றி சுருக்கமான, கல்வி மினி-பாடங்களை உருவாக்குங்கள்.",
+    "user_prompt_template": "பின்வரும் கூற்று பற்றி ஒரு சுருக்கமான பாடம் (20-45 வினாடிகள் படிக்கக்கூடியது) உருவாக்குங்கள்:\n\nகூற்று: {claim}\nதீர்ப்பு: {verdict}\n\nசான்றுகள்:\n{evidence}\n\nகூற்று ஏன் சந்தேகத்திற்குரியது என்பதை விளக்கும் மினி-பாடத்தை வழங்குங்கள், சரிபார்ப்பதற்கு 2 செயல்பாட்டு உதவிகளை வழங்குங்கள், மற்றும் 1 பல தேர்வு கேள்வியைக் கேளுங்கள்.",
+    "json_schema": {
+      "mini_lesson": "சுருக்கமான பாடம் (1 பத்தி, 20-45 வினாடிகள் படிக்கக்கூடியது)",
+      "tips": ["உதவி 1", "உதவி 2"],
+      "quiz": {
+        "question": "கேள்வி",
+        "options": ["A", "B", "C"],
+        "answer": "A"
+      }
+    }
+  },
+  "kn": {
+    "system_prompt": "ನೀವು ಸಂಕ್ಷಿಪ್ತ ಶಿಕ್ಷಕ. ಸತ್ಯ ಪರಿಶೀಲನೆ ಮತ್ತು ತಪ್ಪು ಮಾಹಿತಿಯ ಬಗ್ಗೆ ಸಂಕ್ಷಿಪ್ತ, ಶೈಕ್ಷಣಿಕ ಮಿನಿ-ಪಾಠಗಳನ್ನು ರಚಿಸಿ.",
+    "user_prompt_template": "ಕೆಳಗಿನ ಹೇಳಿಕೆಯ ಬಗ್ಗೆ ಸಂಕ್ಷಿಪ್ತ ಪಾಠ (20-45 ಸೆಕೆಂಡುಗಳು ಓದಲು) ರಚಿಸಿ:\n\nಹೇಳಿಕೆ: {claim}\nನಿರ್ಣಯ: {verdict}\n\nಪುರಾವೆಗಳು:\n{evidence}\n\nಹೇಳಿಕೆ ಏಕೆ ಸಂದೇಹಾಸ್ಪದವಾಗಿದೆ ಎಂಬುದನ್ನು ವಿವರಿಸುವ ಮಿನಿ-ಪಾಠವನ್ನು ಒದಗಿಸಿ, ಪರಿಶೀಲಿಸಲು 2 ಕ್ರಿಯಾಶೀಲ ಸಲಹೆಗಳನ್ನು ನೀಡಿ, ಮತ್ತು 1 ಬಹು ಆಯ್ಕೆ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ.",
+    "json_schema": {
+      "mini_lesson": "ಸಂಕ್ಷಿಪ್ತ ಪಾಠ (1 ಪ್ಯಾರಾಗ್ರಾಫ್, 20-45 ಸೆಕೆಂಡುಗಳು ಓದಲು)",
+      "tips": ["ಸಲಹೆ 1", "ಸಲಹೆ 2"],
+      "quiz": {
+        "question": "ಪ್ರಶ್ನೆ",
+        "options": ["A", "B", "C"],
+        "answer": "A"
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "english_claims": [
+    {
+      "id": "en_001",
+      "claim_text": "Send ₹1000 to UPI abc@upi to claim your lottery prize of ₹50,000! Limited time offer.",
+      "language": "en",
+      "category": "scam",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 10,
+      "tags": ["upi", "lottery", "payment", "urgent"]
+    },
+    {
+      "id": "en_002",
+      "claim_text": "The Earth is round and orbits around the Sun.",
+      "language": "en",
+      "category": "fact",
+      "expected_verdict": "TRUE",
+      "expected_trust_score": 95,
+      "tags": ["science", "astronomy", "basic_fact"]
+    },
+    {
+      "id": "en_003",
+      "claim_text": "Drinking 8 glasses of water daily is essential for health.",
+      "language": "en",
+      "category": "partially_true",
+      "expected_verdict": "PARTIALLY TRUE",
+      "expected_trust_score": 70,
+      "tags": ["health", "water", "myth"]
+    },
+    {
+      "id": "en_004",
+      "claim_text": "Bitcoin will reach $1 million by end of 2024.",
+      "language": "en",
+      "category": "prediction",
+      "expected_verdict": "UNVERIFIED",
+      "expected_trust_score": 30,
+      "tags": ["cryptocurrency", "prediction", "financial"]
+    },
+    {
+      "id": "en_005",
+      "claim_text": "COVID-19 vaccines cause infertility in women.",
+      "language": "en",
+      "category": "misinformation",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 5,
+      "tags": ["covid", "vaccine", "health", "misinformation"]
+    }
+  ],
+  "hindi_claims": [
+    {
+      "id": "hi_001",
+      "claim_text": "तत्काल ₹1000 UPI abc@upi पर भेजें और ₹50,000 का लॉटरी पुरस्कार जीतें!",
+      "language": "hi",
+      "category": "scam",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 10,
+      "tags": ["upi", "lottery", "payment", "urgent"]
+    },
+    {
+      "id": "hi_002",
+      "claim_text": "पृथ्वी गोल है और सूर्य के चारों ओर घूमती है।",
+      "language": "hi",
+      "category": "fact",
+      "expected_verdict": "TRUE",
+      "expected_trust_score": 95,
+      "tags": ["science", "astronomy", "basic_fact"]
+    },
+    {
+      "id": "hi_003",
+      "claim_text": "प्रतिदिन 8 गिलास पानी पीना स्वास्थ्य के लिए आवश्यक है।",
+      "language": "hi",
+      "category": "partially_true",
+      "expected_verdict": "PARTIALLY TRUE",
+      "expected_trust_score": 70,
+      "tags": ["health", "water", "myth"]
+    },
+    {
+      "id": "hi_004",
+      "claim_text": "बिटकॉइन 2024 के अंत तक $1 मिलियन तक पहुंच जाएगा।",
+      "language": "hi",
+      "category": "prediction",
+      "expected_verdict": "UNVERIFIED",
+      "expected_trust_score": 30,
+      "tags": ["cryptocurrency", "prediction", "financial"]
+    },
+    {
+      "id": "hi_005",
+      "claim_text": "COVID-19 वैक्सीन महिलाओं में बांझपन का कारण बनती है।",
+      "language": "hi",
+      "category": "misinformation",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 5,
+      "tags": ["covid", "vaccine", "health", "misinformation"]
+    }
+  ],
+  "tamil_claims": [
+    {
+      "id": "ta_001",
+      "claim_text": "₹1000 ஐ UPI abc@upi க்கு உடனடியாக அனுப்பி ₹50,000 லாட்டரி பரிசை வெல்லுங்கள்!",
+      "language": "ta",
+      "category": "scam",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 10,
+      "tags": ["upi", "lottery", "payment", "urgent"]
+    },
+    {
+      "id": "ta_002",
+      "claim_text": "பூமி உருண்டையானது மற்றும் சூரியனைச் சுற்றி வருகிறது.",
+      "language": "ta",
+      "category": "fact",
+      "expected_verdict": "TRUE",
+      "expected_trust_score": 95,
+      "tags": ["science", "astronomy", "basic_fact"]
+    },
+    {
+      "id": "ta_003",
+      "claim_text": "ஒரு நாளைக்கு 8 கிளாஸ் தண்ணீர் குடிப்பது ஆரோக்கியத்திற்கு அவசியம்.",
+      "language": "ta",
+      "category": "partially_true",
+      "expected_verdict": "PARTIALLY TRUE",
+      "expected_trust_score": 70,
+      "tags": ["health", "water", "myth"]
+    },
+    {
+      "id": "ta_004",
+      "claim_text": "பிட்காயின் 2024 இன் இறுதியில் $1 மில்லியனை எட்டும்.",
+      "language": "ta",
+      "category": "prediction",
+      "expected_verdict": "UNVERIFIED",
+      "expected_trust_score": 30,
+      "tags": ["cryptocurrency", "prediction", "financial"]
+    },
+    {
+      "id": "ta_005",
+      "claim_text": "COVID-19 தடுப்பூசி பெண்களில் மலட்டுத்தன்மையை ஏற்படுத்துகிறது.",
+      "language": "ta",
+      "category": "misinformation",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 5,
+      "tags": ["covid", "vaccine", "health", "misinformation"]
+    }
+  ],
+  "kannada_claims": [
+    {
+      "id": "kn_001",
+      "claim_text": "ತಕ್ಷಣ ₹1000 ಅನ್ನು UPI abc@upi ಗೆ ಕಳುಹಿಸಿ ₹50,000 ಲಾಟರಿ ಬಹುಮಾನವನ್ನು ಗೆಲ್ಲಿ!",
+      "language": "kn",
+      "category": "scam",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 10,
+      "tags": ["upi", "lottery", "payment", "urgent"]
+    },
+    {
+      "id": "kn_002",
+      "claim_text": "ಭೂಮಿ ಗೋಳಾಕಾರದಲ್ಲಿದೆ ಮತ್ತು ಸೂರ್ಯನ ಸುತ್ತ ಸುತ್ತುತ್ತದೆ.",
+      "language": "kn",
+      "category": "fact",
+      "expected_verdict": "TRUE",
+      "expected_trust_score": 95,
+      "tags": ["science", "astronomy", "basic_fact"]
+    },
+    {
+      "id": "kn_003",
+      "claim_text": "ದಿನಕ್ಕೆ 8 ಗ್ಲಾಸ್ ನೀರು ಕುಡಿಯುವುದು ಆರೋಗ್ಯಕ್ಕೆ ಅಗತ್ಯ.",
+      "language": "kn",
+      "category": "partially_true",
+      "expected_verdict": "PARTIALLY TRUE",
+      "expected_trust_score": 70,
+      "tags": ["health", "water", "myth"]
+    },
+    {
+      "id": "kn_004",
+      "claim_text": "ಬಿಟ್ಕಾಯಿನ್ 2024 ರ ಅಂತ್ಯದಲ್ಲಿ $1 ಮಿಲಿಯನ್ ತಲುಪುತ್ತದೆ.",
+      "language": "kn",
+      "category": "prediction",
+      "expected_verdict": "UNVERIFIED",
+      "expected_trust_score": 30,
+      "tags": ["cryptocurrency", "prediction", "financial"]
+    },
+    {
+      "id": "kn_005",
+      "claim_text": "COVID-19 ಲಸಿಕೆ ಮಹಿಳೆಯರಲ್ಲಿ ಬಂಜೆತನವನ್ನು ಉಂಟುಮಾಡುತ್ತದೆ.",
+      "language": "kn",
+      "category": "misinformation",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 5,
+      "tags": ["covid", "vaccine", "health", "misinformation"]
+    }
+  ],
+  "hinglish_claims": [
+    {
+      "id": "hinglish_001",
+      "claim_text": "Jaldi ₹1000 UPI abc@upi pe bhejo aur ₹50,000 ka lottery prize jeeto!",
+      "language": "hi",
+      "category": "scam",
+      "expected_verdict": "FALSE",
+      "expected_trust_score": 10,
+      "tags": ["upi", "lottery", "payment", "urgent", "hinglish"]
+    },
+    {
+      "id": "hinglish_002",
+      "claim_text": "Earth round hai aur Sun ke around ghoomti hai.",
+      "language": "hi",
+      "category": "fact",
+      "expected_verdict": "TRUE",
+      "expected_trust_score": 95,
+      "tags": ["science", "astronomy", "basic_fact", "hinglish"]
+    },
+    {
+      "id": "hinglish_003",
+      "claim_text": "Roz 8 glass paani peena health ke liye zaroori hai.",
+      "language": "hi",
+      "category": "partially_true",
+      "expected_verdict": "PARTIALLY TRUE",
+      "expected_trust_score": 70,
+      "tags": ["health", "water", "myth", "hinglish"]
+    }
+  ]
+}
